@@ -1,6 +1,6 @@
 {
   "name": "@josebarrios/message",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The most generic kind of creative work, including books, movies, photographs, software programs, etc.",
   "main": "index.js",
   "scripts": {
