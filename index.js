@@ -1,8 +1,6 @@
-const Thing = require('@josebarrios/thing')
 const CreativeWork = require('@josebarrios/creative-work')
-const Multiple = require('aggregation/es6');
 
-class Message extends Multiple(Thing, CreativeWork){
+class Message extends CreativeWork{
 
     constructor(model){
       model = model || {};
