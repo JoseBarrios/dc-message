@@ -1,17 +1,17 @@
 'use strict'
 
 var assert = require('assert');
-var Message = require('../index.js');
+var MessageDataController = require('../index.js');
 
 var model = {};
-let creativeWork = new Message(model);
+let creativeWork = new MessageDataController(model);
 
-describe('Message\n', function() {
+describe('MessageDataController\n', function() {
   describe('Static Methods:', function() {
-    describe('Message.isNumber()', function() {
+    describe('MessageDataController.isNumber()', function() {
       it('should ...', function() {
-        assert.equal(Message.isNumber(1), true);
-        assert.equal(Message.isNumber(''), false);
+        assert.equal(MessageDataController.isNumber(1), true);
+        assert.equal(MessageDataController.isNumber(''), false);
       });
     });
   });
